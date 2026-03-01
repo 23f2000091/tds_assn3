@@ -1,5 +1,8 @@
 name: Daily Automated Commit
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: '15 3 * * *'
